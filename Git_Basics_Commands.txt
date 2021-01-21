@@ -1,1 +1,30 @@
 This file will serve as my compilation of all Git and Github commands that I will learn throughout the SpringBoard's Software Engineering Career Track courses.
+
+Here are the Git commands that I learned so far:
+	git --version shows the version of your git installation. If Git is not installed, then type:
+	sudo apt-get install git. For windows, download from git-scm.com's site.
+
+To first set up Local REPO; do this
+	. mkdir local_Repo_Name
+	. touch file_Name --> To create file in that directory(Folder)
+	. open file_Name --> To open that file
+
+Now, write something to this file, and use following commands
+	. git status
+	. git add file_Name OR git addd . --> to add all files to staging area
+	. (Optional: git status to check on latest git updates of your work)
+	. git commit -m "commit message"
+
+Your changes are now pushed to local repository.
+
+NOW, PUSH YOUR WORK TO GITHUB REPO
+
+		To do this, first you need to set up your GitHub repo.
+		. Go to Github and create your Remote Repo there
+
+	In the Terminal, do this:
+		. git remote add origin URL_for_Github_Repo
+
+TO PUSH YOUR WORK to GitHub Repo, do this:
+	. git push Name_of_Remote_Reop Name_Of_Local_Repo_Branch OR, git push origin master
+
