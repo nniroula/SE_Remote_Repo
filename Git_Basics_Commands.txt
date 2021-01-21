@@ -27,5 +27,11 @@ NOW, PUSH YOUR WORK TO GITHUB REPO
 
 TO PUSH YOUR WORK to GitHub Repo, do this:
 	. git push Name_of_Remote_Reop Name_Of_Local_Repo_Branch OR, git push origin master
+
 	NOTE:	 This command may require you to type in your user name and GitHub password each time, which is quite tedious. So, use this command to avoid it from typing in user name and Github password for every single push. So, create SSH Key. Instead of typing in git push origin master, you can type only git push if you run the command git push -u origin master.
+
+	If you add your user name and email to local Git Repo, git log will show your name and email.
+	To do this, following the following:
+		. git config --global user.name "Your Name"
+		. git config --global user.email "Your Email"
 
